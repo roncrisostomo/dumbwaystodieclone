@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &162860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470048}
+  - 114: {fileID: 11464418}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &470048
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11464418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103bcb7f9ccab9a41a27c2f03c9af350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_maxLives: 3
+  m_currentLives: 3
+  m_highScore: 0
+  m_currentScore: 0
+  m_currentLevel: 0
+  m_miniGameCountPerLevel: 3
+  m_miniGameCountPerSet: 0
+  m_miniGameNoRepeatCount: 12
+  m_scoresPerLevel: 64000000
+  m_passBonusScoreNames:
+  - YAY
+  - DUUUUDE
+  - POINTS FOR STYLE
+  - BECAUSE YOU DESERVE IT
+  - NICE WEATHER TODAY
+  - :-)
+  - BECAUSE YOU'RE SPECIAL
+  - TINY BONUS
+  - BOO
+  - BAD LUCK
+  m_passBonusScores: 290000001e00000016000000130000000e0000000a0000000400000003000000ddffffffc4ffffff
+  m_failBonusScoreNames:
+  - SILVER LINING
+  - PITY BONUS
+  - POINTS FOR TRYING
+  - SO CLOSE
+  - MIND YOUR LANGUAGE
+  - MUST TRY HARDER
+  - BOO
+  - OUCH!
+  - INSULT TO INJURY
+  - BAD LUCK
+  m_failBonusScores: 63000000240000001900000011000000f1ffffffeaffffffddffffffd9ffffffd4ffffffc4ffffff
+  m_bonusScoreProbability: .5
+  m_maxFasterLevel: 5
+  m_fasterDurationPerLevel:
+  - 1.10000002
+  - 1.26999998
+  - 1.10000002
+  - 1.10000002
+  - 1.10000002
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_miniGameNoRepeatCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_fasterScreenDuration
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_fasterDurationPerLevel.Array.data[0]
+      value: 1.10000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_fasterDurationPerLevel.Array.data[1]
+      value: 1.26999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_fasterDurationPerLevel.Array.data[2]
+      value: 1.10000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_fasterDurationPerLevel.Array.data[3]
+      value: 1.10000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_fasterDurationPerLevel.Array.data[4]
+      value: 1.10000002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 162860}
+  m_IsPrefabParent: 1

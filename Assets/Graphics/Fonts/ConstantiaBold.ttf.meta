@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c900bf768d7384e45b1bb7945c2a942f
+timeCreated: 1439030145
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames:
+  - ConstantiaBold
+  customCharacters: 
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
